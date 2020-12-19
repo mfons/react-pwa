@@ -5,7 +5,7 @@ function NavigationMenu(props) {
     return (
         <div>
             <div className="font-bold py-3">
-                AppName
+                Sleep App
                         </div>
             <ul>
                 <li>

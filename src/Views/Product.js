@@ -30,10 +30,11 @@ function Product() {
                     {product.data.name}
                 </h1>
                 <div>
-                    <img
+                    {/* <img
                         src={product.data.images[0].imageUrl}
                         alt={product.data.name}
-                    />
+                    /> */}
+                    <h1>image placeholder</h1>
                 </div>
                 <div className="text-xl font-bold mb-3">
                     {product.data.price}
