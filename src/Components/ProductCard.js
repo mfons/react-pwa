@@ -4,14 +4,15 @@ function ProductCard(props) {
     return (
         <div className="border mb-4 rounded overflow-hidden">
             <Link to={`/products/${props.product.id}`}>
-                <div
+                {/* <div
                         style={{
                             'backgroundImage': `url('${props.product.images[0].imageUrl}')`,
                         }}
                         className="w-full h-64 bg-blue bg-cover"
                 >
 
-                </div>
+                </div> */}
+                <h1>image placeholder</h1>
            </Link>
            <div className="p-3">
                <h3 className="font-bold text-xl mb-3">
