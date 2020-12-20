@@ -1,6 +1,6 @@
 {
   "short_name": "Sleep App",
-  "name": "Sleep App",
+  "name": "react-pwa",
   "icons": [
     {
       "src": "favicon.ico",
