@@ -34,7 +34,7 @@ function Home() {
     return (
         <div>
             <h1 className="font-bold text-2xl">
-                Best Sellers
+                Best Sellers!
             </h1>
             {content}
         </div>

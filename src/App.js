@@ -9,6 +9,7 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Home from './Views/Home'
 import About from './Views/About'
+import MediaRecorderTest from './Views/MediaRecorderTest'
 import Product from './Views/Product'
 
 function App() {
@@ -27,6 +28,9 @@ function App() {
             </Route>
             <Route path="/products/:id">
               <Product />
+            </Route>
+            <Route path="/mediaRecorderTest">
+              <MediaRecorderTest />
             </Route>
           </Switch>
         </div>

@@ -5,7 +5,7 @@ function NavigationMenu(props) {
     return (
         <div>
             <div className="font-bold py-3">
-                Sleep App
+                TAF Admin
                         </div>
             <ul>
                 <li>
@@ -14,7 +14,7 @@ function NavigationMenu(props) {
                         className="text-blue-500 py-3 border-t border-b block"
                         onClick={props.closeMenu}
                     >
-                        Home
+                        Dashboard
                             </Link>
                 </li>
                 <li>
@@ -23,7 +23,7 @@ function NavigationMenu(props) {
                         className="text-blue-500 py-3 border-b block"
                         onClick={props.closeMenu}
                     >
-                        About
+                        Browse
                             </Link>
                 </li>
                 <li>
@@ -32,9 +32,27 @@ function NavigationMenu(props) {
                         className="text-blue-500 py-3 border-b block"
                         onClick={props.closeMenu}
                     >
-                        Product
+                        Search
                             </Link>
                 </li>
+                <li>
+                    <Link
+                        to="/users"
+                        className="text-blue-500 py-3 border-b block"
+                        onClick={props.closeMenu}
+                    >
+                        Users
+                            </Link>
+                </li>
+                {/* <li>
+                    <Link
+                        to="/mediaRecorderTest"
+                        className="text-blue-500 py-3 border-b block"
+                        onClick={props.closeMenu}
+                    >
+                        mediaRecorderTest
+                            </Link>
+                </li> */}
             </ul>
         </div>
     )
