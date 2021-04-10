@@ -32,9 +32,14 @@ function Dashboard() {
     //     ;
     // }
 
+    const dashData = { 
+        serviceURL : "http://service.URL/blah",
+        reportGeneratorURL : "http://report.generator.URL/blah",
+        database : "omg!!  best database EV-ER!!!!!!",
+    };
     content =
     <div>
-        <DashboardCard/>
+        <DashboardCard data={dashData}/>
         <GraphCard graph="1"/>
         <GraphCard graph="2"/>
         <GraphCard graph="3"/>
