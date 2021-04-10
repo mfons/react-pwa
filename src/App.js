@@ -8,6 +8,7 @@ import {
 import Header from './Components/Header'
 import Footer from './Components/Footer'
 import Home from './Views/Home'
+import Dashboard from './Views/Dashboard'
 import About from './Views/About'
 import MediaRecorderTest from './Views/MediaRecorderTest'
 import Product from './Views/Product'
@@ -21,7 +22,7 @@ function App() {
         <div className="p-3">
           <Switch>
             <Route exact path="/">
-              <Home></Home>
+              <Dashboard></Dashboard>
             </Route>
             <Route path="/about">
               <About />
